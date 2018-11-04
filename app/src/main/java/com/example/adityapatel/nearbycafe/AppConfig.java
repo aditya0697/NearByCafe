@@ -34,7 +34,7 @@ public final class AppConfig {
 
         public static final String GOOGLE_BROWSER_API_KEY =
 
-                "AIzaSyDcSDImU82tNruPxWYRLThHTCiiaLBTtsg";
+                "Replace Your Apikey";
 
         public static final int PROXIMITY_RADIUS = 2000;
 

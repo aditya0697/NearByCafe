@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">NearByCafe</string>
-    <string name="google_maps_api_key" templateMergeStrategy="preserve" translatable="false" >AIzaSyDcSDImU82tNruPxWYRLThHTCiiaLBTtsg</string>
+    <string name="google_maps_api_key" templateMergeStrategy="preserve" translatable="false" > Replace Your Apikey</string>
 </resources>

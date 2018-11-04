@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop = "10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/cd1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#c8e6c9"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#f5f5f5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cafe_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/ic_cafe" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="17dp"
+                android:paddingLeft="10dp"
+                android:layout_alignRight="@+id/cafe_image"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/cafeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="Cafe Name"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+                <TextView
+                    android:id="@+id/cafe_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Rating 4/5" />
+                <TextView
+                    android:id="@+id/cafe_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="cafe address, califorina" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+
+</android.support.constraint.ConstraintLayout>
